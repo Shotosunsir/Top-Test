@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#app {
+    max-width: 600px;
+    width: 100%;
+}
+
+.post-input {
+    background: rgb(33, 33, 33);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+}
+
+.post-input select,
+.post-input textarea,
+.post-input button {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.post-input textarea {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+.post-input select {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.post-input button {
+    background: #161616;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border-top: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.post-input button:hover {
+    background: rgb(49, 49, 49);
+}
+
+.post-feed .post-item {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow:0 0 1px;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-bottom: 0.8rem;
+    display: block;
+}
+
+.post-author {
+    font-weight: bold;
+    color: #ffffff;
+}
